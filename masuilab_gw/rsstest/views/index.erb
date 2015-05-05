@@ -1,0 +1,10 @@
+<ul>
+yahoo
+<% @yahoo.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+itmnews
+<% @itmnews.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+</ul>
